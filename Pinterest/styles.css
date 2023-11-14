@@ -1,4 +1,6 @@
 body {
+    border: 1px solid #ccc;
+    padding: 50px;
 	background-color: rgb(255, 255, 255)ff;
 	background-position: top center;
 	background-size: cover;
@@ -124,6 +126,8 @@ margin: auto;
     visibility: hidden;
     font-size: 14px;
 }
+
+
 
 
 
