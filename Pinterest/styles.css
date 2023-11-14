@@ -1,0 +1,136 @@
+body {
+	background-color: rgb(255, 255, 255)ff;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Inter', sans-serif;
+	color: rgb(0, 0, 0);
+	margin: 0;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+.container {
+    position: absolute;
+    margin-top: 20px;
+    padding-right: 5px;
+}
+
+.main-container {
+	max-width: 100px;
+	min-height: 50px;
+	margin-inline: auto;
+	background-color: rgb(255, 255, 255);
+}
+
+
+/*Inicio, crear ...*/
+li #Inicio {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 100vw;
+    font-weight: 900px;
+    padding: 15px 20px;
+}
+
+nav {
+	background-color: rgb(255, 255, 255);
+	font-size: 16px;
+	position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 1px;
+}
+
+/* aqui va el diseño del logo de pinterest */
+nav ul {
+	display: block flex;
+	gap: 25px;
+	justify-content: start;
+	align-items: center;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-underline-offset: 3px;
+    text-decoration: none;
+}
+li img {
+    max-width: 25px; 
+    height: auto;
+  }
+
+/*Barra de búscador*/
+#search {
+    display: flex;
+    align-items: center;
+}
+
+#search input[type="text"] {
+	background-color: rgb(233, 231, 231);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: 770px;
+	font-size: 16px;
+}
+
+/* Color del contorno al hacer clic en el input */
+#search input[type="text"]:focus {
+    outline: 4px solid rgb(130, 201, 211); 
+}
+
+
+.item{
+columns: 5 240px;
+margin: auto;
+	
+}
+
+.item .card-image{
+    position: relative;
+    padding: 6px;
+}
+
+.item .card-image img {
+    border-radius: 15px; /* Redondear esquinas de las imágenes */
+    min-width: 240px;
+    max-width: 240px	
+}
+
+.card-image:hover > :first-child {
+    filter: brightness(60%);
+}
+
+.card-image:hover > * {
+    visibility: visible;
+    display: inline;
+}
+
+.button {
+    display: none;
+    background-color: rgb(230, 0, 34);
+    color: rgb(255, 255, 255);
+    padding: 16px 16px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    visibility: hidden;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
